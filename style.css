@@ -59,3 +59,19 @@ button {
 }
 /* HERO END */
 /* MAIN CONTENT START */
+.main-content {
+    display: flex;
+}
+.main-content,
+h1 {
+    flex-direction: column;
+}
+.images {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    flex-direction: column;
+    justify-content: space-between;
+}
