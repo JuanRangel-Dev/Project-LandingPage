@@ -61,17 +61,41 @@ button {
 /* MAIN CONTENT START */
 .main-content {
     display: flex;
-}
-.main-content,
-h1 {
     flex-direction: column;
 }
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 80px;
+    
+}
+.img {
     border-radius: 25px;
     border: 2px solid #73AD21;
     padding: 20px;
+    margin: 20px;
     width: 200px;
     height: 150px;
-    flex-direction: column;
+}
+
+.subtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 80px;
+    
 }
