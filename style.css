@@ -58,7 +58,8 @@ button {
     padding: 5px 20px 5px 20px;
 }
 /* HERO END */
-/* MAIN CONTENT START */
+
+/* MAIN CONTENT (white) START */
 .main-content {
     display: flex;
     flex-direction: column;
@@ -93,9 +94,75 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-between;
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 80px;
-    
 }
+
+.text {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 150px;
+}
+/* MAIN CONTENT (white) END */
+
+/* MAIN CONTENT (grey) START */
+.quote {
+    display: flex;
+    background-color: #b9b9b9;
+    color: white;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 80px;;
+}
+
+.paragraph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.thor {
+    display: flex;
+    flex-direction: column;
+}
+/* MAIN CONTENT (grey) START */
+
+/* MAIN CONTENT (blue banner) START */
+.action-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    background-color: #5084ce;
+    border-radius: 5px;
+    padding: 30px 300px 30px 300px;
+}
+
+.btm-btn {
+    display: flex;
+}
+/* MAIN CONTENT (blue banner) START */
+
+/* FOOTER START */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 30px;
+    color: white;
+}
+/* FOOTER END */
