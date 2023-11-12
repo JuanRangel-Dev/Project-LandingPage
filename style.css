@@ -9,11 +9,16 @@ body {
 .header {
     display: flex;
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     align-items: center;
     justify-content: space-between;
     padding-left: 150px;
     padding-right: 150px;
+}
+
+.logo,
+h2 {
+    font-size: 24px;
 }
 
 ol {
@@ -27,6 +32,7 @@ a {
     text-decoration: none;
 }
 /*HEADER END */
+
 /* HERO START */
 .hero {
     display: flex;
@@ -48,13 +54,17 @@ a {
 
 .right-content {
     display: flex;
-    background-color: #1F2937;
+    background-color: #5f5f5f;
+    width: 900px;
+    height: 190px;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
-    background-color: blue;
+    background-color: #3882F6;
     color: white;
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 5px 20px 5px 20px;
 }
 /* HERO END */
@@ -63,6 +73,12 @@ button {
 .main-content {
     display: flex;
     flex-direction: column;
+}
+
+.main-content,
+h1 {
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 h1 {
@@ -75,7 +91,6 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-between;
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 80px;
@@ -83,7 +98,7 @@ h1 {
 }
 .img {
     border-radius: 25px;
-    border: 2px solid #73AD21;
+    border: 4px solid #3882F6;
     padding: 20px;
     margin: 20px;
     width: 200px;
@@ -97,6 +112,8 @@ h1 {
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 80px;
+    margin: -70px;
+    text-align: center;
 }
 
 .text {
@@ -107,14 +124,21 @@ h1 {
     width: 200px;
     height: 150px;
 }
+
+p {
+    font-size: 18px;
+    font-weight: lighter;
+}
 /* MAIN CONTENT (white) END */
 
 /* MAIN CONTENT (grey) START */
 .quote {
     display: flex;
-    background-color: #b9b9b9;
-    color: white;
+    background-color: #E5e7EB;
+    color: #1F2937;
     align-items: center;
+    font-style: italic;
+    font-weight: lighter;
     padding-top: 80px;
     padding-left: 150px;
     padding-right: 150px;
@@ -127,13 +151,19 @@ h1 {
     justify-content: center;
     justify-self: center;
     flex-direction: column;
+    font-weight: lighter;
+}
+
+.para {
+    font-size: 36px;
+    font-weight: lighter;
 }
 
 .thor {
-    display: flex;
-    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
 }
-/* MAIN CONTENT (grey) START */
+/* MAIN CONTENT (grey) END */
 
 /* MAIN CONTENT (blue banner) START */
 .action-bg {
@@ -146,15 +176,19 @@ h1 {
 .action {
     display: flex;
     flex-direction: column;
-    background-color: #5084ce;
+    background-color: #3882F6;
     border-radius: 5px;
-    padding: 30px 300px 30px 300px;
+    padding: 10px 300px 10px 300px;
+    color: #F9FAF8;
+    text-align: start;
 }
 
 .btm-btn {
     display: flex;
+    border-radius: 6px;
+    padding-left: 30px;
 }
-/* MAIN CONTENT (blue banner) START */
+/* MAIN CONTENT (blue banner) END */
 
 /* FOOTER START */
 .footer {
