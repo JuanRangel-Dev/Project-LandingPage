@@ -1,8 +1,11 @@
+
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    align-items: center;
+    margin-right: auto;
 }
 
 /* HEADER START */
@@ -16,8 +19,7 @@ body {
     padding-right: 150px;
 }
 
-.logo,
-h2 {
+.top-logo {
     font-size: 24px;
 }
 
@@ -39,7 +41,7 @@ a {
     background-color: #1F2937;
     color: white;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 80px;
@@ -61,7 +63,7 @@ a {
     align-items: center;
 }
 
-button {
+.top-btn {
     background-color: #3882F6;
     color: white;
     border-radius: 6px;
@@ -73,18 +75,17 @@ button {
 .main-content {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
 
-.main-content,
-h1 {
-    font-size: 36px;
-    font-weight: bolder;
-}
 
-h1 {
+.title {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .images {
@@ -99,12 +100,12 @@ h1 {
 .img {
     border-radius: 25px;
     border: 4px solid #3882F6;
-    padding: 20px;
     margin: 20px;
     width: 200px;
     height: 150px;
 }
 
+/* 
 .subtext {
     display: flex;
     align-items: center;
@@ -115,20 +116,17 @@ h1 {
     margin: -70px;
     text-align: center;
 }
+*/
 
 .text {
     display: flex;
     flex-direction: row;
-    padding: 20px;
-    margin: 20px;
-    width: 200px;
-    height: 150px;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 18px;
+
 }
 
-p {
-    font-size: 18px;
-    font-weight: lighter;
-}
 /* MAIN CONTENT (white) END */
 
 /* MAIN CONTENT (grey) START */
@@ -137,8 +135,6 @@ p {
     background-color: #E5e7EB;
     color: #1F2937;
     align-items: center;
-    font-style: italic;
-    font-weight: lighter;
     padding-top: 80px;
     padding-left: 150px;
     padding-right: 150px;
@@ -151,21 +147,58 @@ p {
     justify-content: center;
     justify-self: center;
     flex-direction: column;
-    font-weight: lighter;
 }
 
 .para {
     font-size: 36px;
-    font-weight: lighter;
+    font-style: italic;
 }
 
 .thor {
-    margin-top: 100px;
-    text-align: center;
+    padding-left: 300px;
+    font-weight: bold;
 }
 /* MAIN CONTENT (grey) END */
 
-/* MAIN CONTENT (blue banner) START */
+.btm-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    flex-flow: row wrap;
+}
+
+.blue-banner {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 20px 150px 20px 150px;
+}
+
+.action {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+
+.banner-btn {
+    display: flex;
+}
+.blah {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.btm-btn {
+    width: 100px;
+    flex: 0 1 auto;
+    height: 30px;
+    border-radius: 5px;
+}
+
+/* 
+STARTED OVER
+MAIN CONTENT (blue banner) START 
 .action-bg {
     display: flex;
     align-items: center;
@@ -180,15 +213,17 @@ p {
     border-radius: 5px;
     padding: 10px 300px 10px 300px;
     color: #F9FAF8;
-    text-align: start;
+}
+
+.btm-text {
+    margin-right: 200px;
 }
 
 .btm-btn {
     display: flex;
-    border-radius: 6px;
-    padding-left: 30px;
+    flex-direction: column;
 }
-/* MAIN CONTENT (blue banner) END */
+ MAIN CONTENT (blue banner) END */
 
 /* FOOTER START */
 .footer {
