@@ -173,6 +173,7 @@ a {
     background-color: #3882F6;
     border-radius: 6px;
     padding: 20px 150px 20px 150px;
+    color: #E5e7EB;
 }
 
 .action {
@@ -194,6 +195,9 @@ a {
     flex: 0 1 auto;
     height: 30px;
     border-radius: 5px;
+    background-color: #3882F6;
+    color: #E5e7EB;
+    border: 2px solid #E5e7EB;
 }
 
 /* 
